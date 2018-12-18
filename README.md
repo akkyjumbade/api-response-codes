@@ -2,15 +2,12 @@
 # API Response Codes
 Response code for API
 
-|1XX|Informational| It means the request has been received and the process is continuing.|  
-|--|--|
-|2XX|Success| It means the action was successfully received, understood, and accepted.|
-|--|--|
-|3XX|Redirection| It means further action must be taken in order to complete the request.|  
-|--|--|
+|Code|Info| Description|
+|--|--|--| 
+|2XX|Success| It means the action was successfully received, understood, and accepted.|  
+|3XX|Redirection| It means further action must be taken in order to complete the request.|
 |4XX|Client Error| It means the request contains incorrect syntax or cannot be fulfilled.|
-|--|--|
-|5XX|Server Error| It means the server failed to fulfill an apparently valid request.|
+|5XX|Server Error| It means the server failed to fulfill an apparently valid request.  |
 
 - ### ERRR-400
 	_Bad Request_
